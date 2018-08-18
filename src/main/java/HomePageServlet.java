@@ -13,6 +13,7 @@ public class HomePageServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<h1> Welcome to the home page </h1>");
+        out.println("<a href=\"/hello\">hello</a>");
     }
 
 
