@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-//Line 11 is an annotation that specifies that this class is a servlet
+//Line 11 is an annotation that specifies that this class is a servlet. Name (name) is ALWAYS name and is always name of Class. urlPatterns always require a "/" to specify what a user types in to activate this servlet.
 @WebServlet(name = "CountServlet", urlPatterns="/count")
 
 //All servlets must extend from super/parent class HttpServlet
