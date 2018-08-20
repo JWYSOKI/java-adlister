@@ -1,5 +1,3 @@
-
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -21,8 +19,5 @@ public class HelloWorldServlet extends HttpServlet {
         } else
         out.println("<h1>Hello " + name + "</h1>");
                out.println("<a href=\"/\">goodbye</a>");
-
     }
-
-
 }

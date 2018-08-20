@@ -17,6 +17,4 @@ public class HomePageServlet extends HttpServlet {
         out.println("<a href=\"/hello\">hello</a>");
         out.println("<a href=\"/logout\">logout</a>");
     }
-
-
 }
