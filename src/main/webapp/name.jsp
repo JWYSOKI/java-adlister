@@ -8,10 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Name</title>
 </head>
 <body>
-<form action="" method="GET"></form>
+    <form action="/hi.jsp" method="GET">
+        <label for="name">name</label>
+        <input id="name" name="name" type="text" placeholder="enter name">
+        <input type="submit" class="btn btn-primary btn-block" value="submit">
+
+    </form>
 
 
 </body>
