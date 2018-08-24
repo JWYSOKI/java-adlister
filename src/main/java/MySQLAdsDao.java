@@ -1,17 +1,12 @@
 //import java.sql.*;
-//
 //import com.mysql.cj.jdbc.Driver;
-//
 //import java.util.ArrayList;
 //import java.util.List;
-//
-//
-//
-//
+
 //public class MySQLAdsDao implements Ads {
-//
+
 //    private Connection connection = null;
-//
+
 //    @Override
 //    public List<Ad> all() throws SQLException{
 //        List<Ad> ads = new ArrayList<>();
@@ -28,12 +23,8 @@
 //
 //        return ads;
 //
-//
-//
-//
 //    }
-//
-//
+
 //    @Override
 //    public Long insert(Ad ad) {
 //        Statement stmt = connection.createStatement();
@@ -43,8 +34,7 @@
 //        rs.next();
 //        return rs.getLong(1);
 //    }
-//
-//
+
 //    public MySQLAdsDao(Config config) {
 //        try {
 //            DriverManager.registerDriver(new Driver());
@@ -54,10 +44,7 @@
 //                    config.getPassword()
 //            );
 //        }
-//
-//
-//
-//
+
 //        catch(SQLException e){
 //                throw new RuntimeException("Error connecting to the database!", e);
 //            }
@@ -66,7 +53,6 @@
 //    }
 
 import com.mysql.cj.jdbc.Driver;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
